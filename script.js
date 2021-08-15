@@ -2,7 +2,7 @@ function eng(){
     let str = ""
     str += "<h2>Normal Counter - Privacy policy</h2>"
     str += '<strong>"Using Ads ID"</strong>'
-    str += "<p>This app uses he unique id to display ads.</p>"
+    str += "<p>This app uses the unique id to display ads.</p>"
     str += "<p>this id is used to sent data.</p>"
     str += "<p>Your personal information will not be identification from this id. </p>"
     str += '<strong>"Network access"</strong>'
