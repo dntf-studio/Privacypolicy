@@ -6,6 +6,17 @@ function jpn(){
     loadHtml("./src/index_ja.html","container");
 }
 
+function load_header(){
+    var html = document.getElementById("box");
+    var str = '<header><h1>プライバシーポリシー / Privacypolicy</h1>'
+    str += '<input type="button" value="English" onclick="eng()">'
+    str += '<input type="button" value="Japanese" onclick="jpn()">'
+    str += '</header><main><div id="container"></div></main>'
+    html.innerHTML = str
+
+    loadHtml("./src/index_ja.html","container")
+}
+
 function loadHtml(html_,place){
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("GET",html_,true);

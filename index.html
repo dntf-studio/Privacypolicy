@@ -5,32 +5,9 @@
     <title>プライバシーポリシー / Privacypolicy</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>プライバシーポリシー / Privacypolicy</h1>
-            <input type="button" value="English" onclick="eng()">
-            <input type="button" value="Japanese" onclick="jpn()">
-    </header>
-    <main>
-        
-        <div id="container">
-            <ul>
-                <li>
-                    <a href="#normalcounter">ノーマルカウンター</a>
-                </li>
-            </ul>
-
-            <div id="lang_1">
-                <h2 id="normalcounter">ノーマルカウンター - プライバシーポリシー</h2>
-                <strong>『広告IDの利用』</strong>
-                <p>広告を表示する際に固有のIDを利用しています。</p>
-                <p>これはアプリから送信され利用されます。</p>
-                <p>このIDから個人が特定されることはありません。</p>
-                <strong>『ネットワークアクセス』</strong>
-                <p>広告を表示するために行われます。</p>
-            </div>
-        </div>
-    </main>
+<body onload="load_header()">
+    <div id="box">
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
