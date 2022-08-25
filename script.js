@@ -6,6 +6,10 @@ function jpn(){
     loadHtml("./src/index_ja.html","container");
 }
 
+function style(){
+    loadHtml("./src/index_ja.html","__style__");
+}
+
 function load_header(){
     var html = document.getElementById("box");
     var str = '<header><h1>プライバシーポリシー / Privacypolicy</h1>'
